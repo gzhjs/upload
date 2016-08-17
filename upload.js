@@ -2,9 +2,9 @@
     "use strict"
     var upload = {};
 
-    uplaod.create = function(config){
+    upload.create = function(config){
         
     };
 
     w.upload = upload;
-})(window)
+})(window);
