@@ -1,2 +1,2 @@
 # upload
-a front-end upload p
+a front-end upload plugin
