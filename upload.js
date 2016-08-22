@@ -10,7 +10,7 @@
     var upload = {};
     //创建上传插件实例
     upload.create = function(config) {
-        var inputId = config.id;
+        var inputId = config.id.replace(/^#/, '');
         var url = config.url;
 
         var fileInput = $$(inputId);
@@ -35,7 +35,7 @@
                 console.log(xhr.responseText);
             }
         };
-        xhr.sendAsBinary(data);
+        xhr.send(data);
     };
 
     w.upload = upload;
